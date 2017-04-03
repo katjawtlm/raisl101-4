@@ -51,7 +51,7 @@ def join
   else
     flash[:warning] = "你已经是本讨论版成员了！"
   end
-  redirect_to group_path(@group_path)
+  redirect_to group_path(@group)
 end
 
   def quit
